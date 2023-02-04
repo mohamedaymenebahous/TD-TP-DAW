@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body class="body" id="body">
+    <div class="first">
+        <h1>Demande de subventions associations</h1>
+        <fieldset>
+            <legend>Identité</legend>
+            <form action="" method="get">
+                <label for="typeAsso">Type d'association :</label>
+                <select name="typeAsso" id="typeAsso">
+                    <option value="AssociationEtudiante">Association Etudiante</option>
+                    <option value="AssociationProf">Association Professeur</option>
+                    <option value="AssociationBDE">Association BDE</option>
+                </select>
+                <br>
+
+                <label for="NomPres">Nom président <br> déclare en préfecture :</label>
+                <input type="text" name="NomPres" id="NomPres">
+                <br>
+
+                <label for="NomAsso">Nom de l'association :</label>
+                <input type="text" name="NomAsso" id="NomAsso">
+                <br>
+
+                <label for="SiegeSoc">Siège Social :</label>
+                <input type="text" name="SiegeSoc" id="SiegeSoc" placeholder="adresse, code postal, ville...">
+                <br>
+
+                <label for="AdrMail">Adresse mail :</label>
+                <input type="email" name="AdrMail" id="AdrMail">
+                <br>
+
+                <label for="NumDel">Numero délivré par la <br> préfecture :</label>
+                <input type="text" name="NumDel" id="NumDel">
+                <br>
+            </form>
+        </fieldset>
+        
+        <div class="CouleurDiv" id="CouleurDiv">
+            <form action="">
+                <label for="Couleur">Choisir une couleur :</label>
+                <input type="color" name="Couleur" id="Couleur">
+                <input type="button" id="ChangeColor" value="Changer de couleur" onclick="changeColor()" >
+            </form>
+        </div>
+        
+        <fieldset>
+            <legend>Calcul de la subvention</legend>
+            <form action="" method="get">
+
+                <label for="NomMembres">Nombre de membres :</label>
+                <input type="text" name="NomMembres" id="NomMembres">
+                <br>
+
+                <label for="SubvDes">Subvention desiree :</label>
+                <input type="button" value="Calculer" id="SubvDesCalc" onclick="calculSub()">
+                <input type="text" name="SubvDes" id="SubvDes">
+                <br>
+
+                <label for="SubMax">Subvention Max :</label>
+                <output type="text" name="SubMax" id="SubMax"></output>
+                <label class="dollar" id="dollar">$</label>
+                <br>
+
+                <label for="DescripRap">Description rapide de <br> l'utilisation des fonds :</label>
+                <br>
+                <textarea type="text" name="DescripRap" id="DescripRap">Description</textarea>
+                
+                <div class="valid" id="valid">
+                    <input type="button" value="Valider" id="Valider" onclick="validationCheck()">
+                    <input type="button" value="Effacer" id="Effacer">
+                </div>
+
+            </form>
+        </fieldset>
+
+        <a href="#">Législation sur les associations</a>
+    </div>
+
+    <script type="text/javascript" src="ex1.js"></script>
+
+</body>
+</html>

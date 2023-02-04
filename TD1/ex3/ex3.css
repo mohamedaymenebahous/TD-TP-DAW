@@ -1,0 +1,57 @@
+*
+{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: dotted;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    padding: .5rem;
+    padding-left: 1rem;
+    width: 16rem;
+    background-color: #dd5100;
+    border-width: thin;
+    text-shadow: #000000;
+}
+
+li:hover
+{
+    background-color: #ff8827;
+}
+
+hr
+{
+    background-color: #464646;
+    width: 17.5rem;
+    border: none;
+    height: 1px;
+    margin-top: -0.1rem;
+    float: left;
+}
+
+#commandes
+{
+    text-align: center;
+    padding-top: 5rem;
+    background-color: #5a5552;
+    font-style:normal;
+    letter-spacing: 0.3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#number
+{
+    text-align: center;
+    padding-left: 4px;
+    border-radius: 4rem;
+    background-color: #171717;
+    font-size: 0.75rem;
+}

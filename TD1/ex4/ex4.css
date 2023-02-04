@@ -1,0 +1,43 @@
+*
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cadre
+{
+    width: 20rem;
+    height: 20rem;
+    background-color: #413a3a;
+}
+
+#label0
+{
+    background-color: #413a3a;
+    text-align: center;
+    letter-spacing: 0.25em;
+    padding-top: 5rem;
+}
+
+.formulaire
+{
+    background-color: #413a3a;
+    color: #FFFFFF;
+    font-size: 1.15rem;
+}
+
+#formulaire
+{
+    padding: 2rem;
+    padding-top: 0;
+}
+
+#login, #pass
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 0.25rem;
+    border-style: none;
+}
