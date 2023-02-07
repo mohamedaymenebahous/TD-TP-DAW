@@ -1,0 +1,48 @@
+*
+{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: dotted;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    padding: .5rem;
+    padding-left: 1rem;
+    width: 30%;
+    background-color: #dd5100;
+    border-width: thin;
+    text-shadow: #000000;
+}
+
+li:hover
+{
+    background-color: #ff8827;
+}
+
+hr
+{
+    background-color: #464646;
+    width: 32.7%;
+    border: none;
+    height: 1px;
+    margin-top: 0rem;
+    float: left;
+}
+
+#commande
+{
+    text-align: center;
+    padding-top: 6rem;
+    background-color: #5a5552;
+    font-style:normal;
+    letter-spacing: 0.3em;
+    font-family: 'Oswald', sans-serif;
+}
