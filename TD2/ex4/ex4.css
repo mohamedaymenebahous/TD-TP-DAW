@@ -15,7 +15,7 @@ ul
 li
 {
     padding: .5rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     width: 30%;
     background-color: #dd5100;
     border-width: thin;
@@ -30,7 +30,7 @@ li:hover
 hr
 {
     background-color: #464646;
-    width: 32.7%;
+    width: 18.7rem;
     border: none;
     height: 1px;
     margin-top: 0rem;
