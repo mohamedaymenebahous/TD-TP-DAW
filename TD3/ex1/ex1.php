@@ -9,10 +9,8 @@
 </head>
 <body>
     <h1>Mon premier script PHP</h1>
-    <p>
-        <?php
-        echo 'Hello world!';
-        ?>
-    </p>
+    <?php
+        echo '<p id="parag">Hello world!</p>';
+    ?>
 </body>
 </html>
